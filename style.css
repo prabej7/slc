@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 20px 30px;
+    color: #c8005f;
+}
+
+.post-form {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#caption {
+    height: 3rem;
+    width: 20rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#submit {
+    height: 3rem;
+    width: 5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #c0015acc;
+    color: white;
+    font-weight: 600;
+}
+
+.main-post {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 30px;
+
+}
+
+
+#container {
+    width: 70%;
+}
+
+
+.container-style {
+    margin-bottom: 1.5rem;
+    background-color: #ffbbca;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media (max-width:480px) {
+    .post-form {
+        flex-wrap: wrap;
+    }
+
+}
